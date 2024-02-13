@@ -1,0 +1,28 @@
+env:
+  TERM: xterm-256color
+
+import:
+  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+
+window:
+  decorations: none
+  startup_mode: Maximized
+
+tabspaces: 4
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font Mono
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font Mono
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font Mono
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font Mono
+    style: Bold Italic
+  
+shell:
+  program: /bin/bash
