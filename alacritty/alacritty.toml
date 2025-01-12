@@ -1,22 +1,42 @@
-import = ["/home/udin/.config/alacritty/themes/catppuccin-mocha.toml"]
+import = ["./spaceduck.toml"]
 
 [env]
 TERM = "xterm-256color"
 
+[font]
+size = 10.5
+
+# [font.bold]
+# family = "MesloLGS Nerd Font Mono"
+# style = "Bold"
+#
+# [font.bold_italic]
+# family = "MesloLGS Nerd Font Mono"
+# style = "Bold Italic"
+#
+# [font.italic]
+# family = "MesloLGS Nerd Font Mono"
+# style = "Italic"
+#
+# [font.normal]
+# family = "MesloLGS Nerd Font Mono"
+# style = "Regular"
+
+
 [font.bold]
-family = "MesloLGS Nerd Font Mono"
+family = "Monaspace Neon"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGS Nerd Font Mono"
+family = "Monaspace Neon"
 style = "Bold Italic"
 
 [font.italic]
-family = "MesloLGS Nerd Font Mono"
+family = "Monaspace Neon"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS Nerd Font Mono"
+family = "Monaspace Neon"
 style = "Regular"
 
 [shell]

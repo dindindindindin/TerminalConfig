@@ -6,9 +6,14 @@ return {
     opts = { flavour = "mocha" },
   },
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
+    "pineapplegiant/spaceduck",
+    name = "spaceduck",
+    priority = 500,
   },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "spaceduck",
+  --   },
+  -- },
 }

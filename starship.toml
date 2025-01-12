@@ -5,11 +5,9 @@ $username\
 [](bg:#710C04 fg:#000000)\
 $directory\
 [](bg:#9A348E fg:#710C04)\
-
 $git_branch\
 $git_status\
 [](fg:#9A348E bg:#86BBD8)\
-
 $c\
 $elixir\
 $elm\
@@ -26,7 +24,7 @@ $scala\
 $docker_context\
 [](fg:#06969A bg:#33658A)\
 $time\
-[ ](fg:#33658A)\
+[](fg:#33658A)\
 $line_break\
 $character
 """
@@ -77,9 +75,9 @@ style = "bg:#86BBD8"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
-symbol = " "
+symbol = ""
 style = "bg:#06969A"
-format = '[ $symbol $context ]($style) $path'
+format = '[ $symbol $context ]($style)' #add $path ?
 
 [elixir]
 symbol = " "
